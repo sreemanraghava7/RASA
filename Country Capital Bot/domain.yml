@@ -1,0 +1,46 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - thanks
+  - give_the_country
+
+actions:
+  - action_tell_capital
+
+entities:
+  - country
+
+  
+
+responses:
+  utter_greet:
+  - text: "Hi! I'm a bot, powered by Rasa. Give me the country I'll give you the capital city."
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://4ajfjx1rvvj219s79u3imwp8-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/giphy-18.gif"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_welcome:
+  - text: "You are welcome !!!"
+
+  utter_goodbye:
+  - text: "Bye...have a good day"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+
+
+  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

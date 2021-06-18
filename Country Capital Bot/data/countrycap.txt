@@ -1,0 +1,28 @@
+bolivia:Sucre
+brunei:Bandar Seri Begawan
+vatican city:Vatican City
+dr congo:Kinshasa
+eswatini:Lobamba
+iran:Tehran
+laos:Vientiane
+micronesia:Palikir
+moldova:Chișinău
+north korea:Pyongyang
+south korea:Seoul
+state of palestine:Ramallah
+palestine:Ramallah
+macedonia:Skopje
+russia:Moscow
+syria:Damascus
+tanzania:Dodoma
+united arab emirates:Abu Dhabi
+uae:Abu Dhabi
+u a e:Abu Dhabi
+united states of america:Washington D. C.
+usa:Washington D. C.
+u s a:Washington D. C.
+United Kingdom of Great Britain and Northern Ireland:London
+uk:London
+u k:London
+venezuela:Caracas
+vietnam:Hanoi

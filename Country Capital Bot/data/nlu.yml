@@ -1,0 +1,53 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+
+- intent: goodbye
+  examples: |
+    - bye
+
+- intent: thanks
+  examples: |
+    - thanks
+    - thank you
+
+- intent: give_the_country
+  examples: |
+    - [norway](country)
+    - [yemen](country)
+    - [belize](country)
+    - [vietnam](country)
+    - [togo](country)
+    - [fiji](country)
+    - i need capital of [lesotho](country) country
+    - what is the capital of [moldova](country) country
+    - what is the capital city of [france](country) country
+    - capital of [haiti](country) country
+    - cap of [greece](country) country
+    - capital city of [egypt](country) country
+    - [turkey](country)
+    - [ireland](country)
+    - [israel](country)
+    - [congo](country)
+    - [italy](country)
+    - [dr congo](country)
+    - [brunei](country)
+    - [chile](country)
+    - [iceland](country)
+    - [iraq](country)
+    - [bolivia](country)
+    - [central african republic](country)
+    - [saint kittis and nevis](country)
+    - [kiribati](country)
+    - [libya](country)
+    - [seychelles](country)
+    - [state of palestine](country)
+    - [st. vincent and the grenadines](country)
+
+- lookup: country
+    data/country-capital.txt
